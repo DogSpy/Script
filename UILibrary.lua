@@ -165,14 +165,14 @@ local library = {
         textstroke = true
     },
     theme = {
-        buttons = Color3.fromRGB(153, 0, 00), -- toggle, sliders colors
+        buttons = Color3.fromRGB(20, 200, 20), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235),
-        textboxtext = Color3.fromRGB(204, 204, 204),
-        main = Color3.fromRGB(153, 0, 0),
-        outline = Color3.fromRGB(183, 30, 30),
-        tabholder = Color3.fromRGB(158, 5, 5),
-        tabbutton = Color3.fromRGB(153, 0, 0),
-        tabselected = Color3.fromRGB(170, 20, 20)
+        textboxtext = Color3.fromRGB(145, 145, 145),
+        main = Color3.fromRGB(30, 30, 30),
+        outline = Color3.fromRGB(60, 60, 60),
+        tabholder = Color3.fromRGB(35, 35, 35),
+        tabbutton = Color3.fromRGB(30, 30, 30),
+        tabselected = Color3.fromRGB(50, 50, 50)
     }
 }
 
@@ -204,7 +204,7 @@ function library:Notify(title, message, time, buttons, _function)
 		ZIndex = 100,
 		Size = UDim2.new(0,220,0,80),
 		Position = UDim2.new(0,-300,1,-90),
-		BackgroundColor3 = Color3.fromRGB(153,0,0),
+		BackgroundColor3 = Color3.fromRGB(30,30,30),
 		Text = "",
 		Name = "Notification",
 		Parent = library.base
@@ -404,8 +404,8 @@ function library:CreateWindow(csize, cpos)
 	window.main = self:create("TextButton", {
 		Position = UDim2.new(0,cpos.X,0,cpos.Y),
 		Size = UDim2.new(0,csize.X,0,csize.Y),
-		BackgroundColor3 = library.theme.tabselected,
-		BorderColor3 = library.theme.outline,
+		BackgroundColor3 = self.theme.main,
+		BorderColor3 = self.theme.outline,
 		Text = "",
 		Name = "Window",
 		AutoButtonColor = false,
@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(153, 0, 0),
+		ImageColor3 = Color3.fromRGB(25, 25, 25),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -619,7 +619,7 @@ function library:CreateWindow(csize, cpos)
 		
 		tab.buttontop = library:create("Frame", {
 			Size = UDim2.new(1,0,1,0),
-			BackgroundColor3 = library.theme.tabselected,
+			BackgroundColor3 = library.theme.tabbutton,
 			BorderSizePixel = 0,
 			BorderColor3 = library.theme.outline,
 			Parent = tab.button
@@ -700,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(152, 0, 0),
+				BackgroundColor3 = Color3.fromRGB(40, 40, 40),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
@@ -761,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+					BackgroundColor3 = Color3.fromRGB(60, 60, 60),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
