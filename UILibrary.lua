@@ -165,14 +165,14 @@ local library = {
         textstroke = true
     },
     theme = {
-        buttons = Color3.fromRGB(153, 200, 20), -- toggle, sliders colors
+        buttons = Color3.fromRGB(153, 00, 0), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235),
-        textboxtext = Color3.fromRGB(145, 145, 145),
-        main = Color3.fromRGB(102, 30, 30),
+        textboxtext = Color3.fromRGB(158, 158, 158),
+        main = Color3.fromRGB(102, 0, 0),
         outline = Color3.fromRGB(60, 60, 60),
-        tabholder = Color3.fromRGB(158, 35, 35),
-        tabbutton = Color3.fromRGB(153, 30, 30),
-        tabselected = Color3.fromRGB(102, 50, 50)
+        tabholder = Color3.fromRGB(158, 0, 0),
+        tabbutton = Color3.fromRGB(153, 0, 0),
+        tabselected = Color3.fromRGB(102, 0, 0)
     }
 }
 
