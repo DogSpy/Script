@@ -242,7 +242,7 @@ function library:Notify(title, message, time, buttons, _function)
 			ZIndex = 100,
 			Size = UDim2.new(1/#buttons, 0, 0, 16),
 			Position = UDim2.new((i-1)/#buttons, 0,0.8,0),
-			BackgroundColor3 = Color3.fromRGB(60,60,60),
+			BackgroundColor3 = Color3.fromRGB(153,0,0),
 			Text = v,
 			TextSize = 14,
 			TextColor3 = Color3.fromRGB(235, 235, 235),
