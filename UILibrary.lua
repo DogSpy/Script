@@ -405,7 +405,7 @@ function library:CreateWindow(csize, cpos)
 		Position = UDim2.new(0,cpos.X,0,cpos.Y),
 		Size = UDim2.new(0,csize.X,0,csize.Y),
 		BackgroundColor3 = library.theme.tabselected,
-		BorderColor3 = Color3.fromRGB(102, 0, 0),
+		BorderColor3 = library.theme.outline,
 		Text = "",
 		Name = "Window",
 		AutoButtonColor = false,
