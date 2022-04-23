@@ -156,7 +156,7 @@ local library = {
     pointers = {},
     settings = {
         guiname = "DogSpy",
-		title = "DogSpy [Romania Edition]",
+		title = "DogSpy [GodFather Edition]",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " Version 1.0 BETA ",
         modal = true,
@@ -165,11 +165,11 @@ local library = {
         textstroke = true
     },
     theme = {
-        buttons = Color3.fromRGB(153, 00, 0), -- toggle, sliders colors
+        buttons = Color3.fromRGB(153, 153, 153), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235),
         textboxtext = Color3.fromRGB(158, 158, 158),
         main = Color3.fromRGB(102, 0, 0),
-        outline = Color3.fromRGB(60, 60, 60),
+        outline = Color3.fromRGB(102, 0, 0),
         tabholder = Color3.fromRGB(158, 0, 0),
         tabbutton = Color3.fromRGB(153, 0, 0),
         tabselected = Color3.fromRGB(102, 0, 0)
