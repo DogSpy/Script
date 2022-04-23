@@ -171,7 +171,7 @@ local library = {
         main = Color3.fromRGB(153, 0, 0),
         outline = Color3.fromRGB(183, 30, 30),
         tabholder = Color3.fromRGB(158, 5, 5),
-        tabbutton = Color3.fromRGB(153, 0, 0),
+        tabbutton = Color3.fromRGB(102, 0, 0),
         tabselected = Color3.fromRGB(170, 20, 20)
     }
 }
@@ -761,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(153, 0, 0),
+					BackgroundColor3 = Color3.fromRGB(102, 0, 0),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
