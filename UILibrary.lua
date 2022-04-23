@@ -204,7 +204,7 @@ function library:Notify(title, message, time, buttons, _function)
 		ZIndex = 100,
 		Size = UDim2.new(0,220,0,80),
 		Position = UDim2.new(0,-300,1,-90),
-		BackgroundColor3 = Color3.fromRGB(30,30,30),
+		BackgroundColor3 = Color3.fromRGB(153,0,0),
 		Text = "",
 		Name = "Notification",
 		Parent = library.base
@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(25, 25, 25),
+		ImageColor3 = Color3.fromRGB(153, 0, 0),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -700,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+				BackgroundColor3 = Color3.fromRGB(153, 40, 40),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
@@ -761,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(60, 60, 60),
+					BackgroundColor3 = Color3.fromRGB(102, 0, 0),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
