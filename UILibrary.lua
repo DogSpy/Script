@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(102, 0, 0),
+		ImageColor3 = Color3.fromRGB(153, 0, 0),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
