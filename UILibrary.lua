@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(25, 25, 25),
+		ImageColor3 = Color3.fromRGB(102, 0, 0),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -597,8 +597,8 @@ function library:CreateWindow(csize, cpos)
 		tab.main = library:create("ScrollingFrame", {
 			Position = UDim2.new(0,0,0,20),
 			Size = UDim2.new(1,0,1,-20),
-			BackgroundColor3 = library.theme.tabselected,
-			BorderColor3 = library.theme.outline,
+			BackgroundColor3 = Color3.fromRGB(102, 0, 0),
+			BorderColor3 = Color3.fromRGB(153, 0, 0),
 			Name = "Frame-"..name, -- "PageFrame",
 			ScrollBarThickness = 0,
 			ScrollingDirection = "Y",
