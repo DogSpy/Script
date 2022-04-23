@@ -156,7 +156,7 @@ local library = {
     pointers = {},
     settings = {
         guiname = "DogSpy",
-		title = "GodFather [Version 1.0]",
+		title = "GodFather [STATUS: UNDETECTED]",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " Version 1.0 BETA ",
         modal = true,
@@ -165,7 +165,7 @@ local library = {
         textstroke = true
     },
     theme = {
-        buttons = Color3.fromRGB(1, 1, 1), -- toggle, sliders colors
+        buttons = Color3.fromRGB(180, 1, 1), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235),
         textboxtext = Color3.fromRGB(158, 158, 158),
         main = Color3.fromRGB(102, 0, 0),
