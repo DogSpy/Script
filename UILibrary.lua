@@ -1744,7 +1744,7 @@ function library:CreateWindow(csize, cpos)
 					ZIndex = 165,
 					Position = UDim2.new(0,181,0,5),
 					Size = UDim2.new(0,14,0,170),
-					BackgroundColor3 = Color3.fromRGB(200,200,200),
+					BackgroundColor3 = Color3.fromRGB(160,0,0),
 					BorderColor3 = library.theme.outline,
 					Text = "",
 					Parent = color.colorpicker
