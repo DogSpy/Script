@@ -700,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(153, 40, 40),
+				BackgroundColor3 = Color3.fromRGB(123, 0, 0),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
