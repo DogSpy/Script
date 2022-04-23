@@ -597,8 +597,8 @@ function library:CreateWindow(csize, cpos)
 		tab.main = library:create("ScrollingFrame", {
 			Position = UDim2.new(0,0,0,20),
 			Size = UDim2.new(1,0,1,-20),
-			BackgroundColor3 = Color3.fromRGB(102, 0, 0),
-			BorderColor3 = Color3.fromRGB(153, 0, 0),
+			BackgroundColor3 = library.theme.tabselected,
+			BorderColor3 = library.theme.outline,
 			Name = "Frame-"..name, -- "PageFrame",
 			ScrollBarThickness = 0,
 			ScrollingDirection = "Y",
@@ -613,15 +613,15 @@ function library:CreateWindow(csize, cpos)
 			Position = UDim2.new(0,self.xpos,0,0),
 			Size = UDim2.new(0,bounds.X+8,0,19),
 			Name = "Button-"..name,
-			BorderColor3 = Color3.fromRGB(153, 0, 0),
+			BorderColor3 = library.theme.outline,
 			Parent = self.tabholder
 		})
 		
 		tab.buttontop = library:create("Frame", {
 			Size = UDim2.new(1,0,1,0),
-			BackgroundColor3 = Color3.fromRGB(102, 0, 0),
+			BackgroundColor3 = library.theme.tabselected,
 			BorderSizePixel = 0,
-			BorderColor3 = Color3.fromRGB(153, 0, 0),
+			BorderColor3 = library.theme.outline,
 			Parent = tab.button
 		})
 		
