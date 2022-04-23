@@ -613,15 +613,15 @@ function library:CreateWindow(csize, cpos)
 			Position = UDim2.new(0,self.xpos,0,0),
 			Size = UDim2.new(0,bounds.X+8,0,19),
 			Name = "Button-"..name,
-			BorderColor3 = library.theme.outline,
+			BorderColor3 = Color3.fromRGB(153, 0, 0),
 			Parent = self.tabholder
 		})
 		
 		tab.buttontop = library:create("Frame", {
 			Size = UDim2.new(1,0,1,0),
-			BackgroundColor3 = library.theme.tabbutton,
+			BackgroundColor3 = Color3.fromRGB(102, 0, 0),
 			BorderSizePixel = 0,
-			BorderColor3 = library.theme.outline,
+			BorderColor3 = Color3.fromRGB(153, 0, 0),
 			Parent = tab.button
 		})
 		
