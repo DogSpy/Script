@@ -204,7 +204,7 @@ function library:Notify(title, message, time, buttons, _function)
 		ZIndex = 100,
 		Size = UDim2.new(0,220,0,80),
 		Position = UDim2.new(0,-300,1,-90),
-		BackgroundColor3 = Color3.fromRGB(30,30,30),
+		BackgroundColor3 = Color3.fromRGB(153,0,0),
 		Text = "",
 		Name = "Notification",
 		Parent = library.base
