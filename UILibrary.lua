@@ -404,7 +404,7 @@ function library:CreateWindow(csize, cpos)
 	window.main = self:create("TextButton", {
 		Position = UDim2.new(0,cpos.X,0,cpos.Y),
 		Size = UDim2.new(0,csize.X,0,csize.Y),
-		BackgroundColor3 = self.theme.main,
+		BackgroundColor3 = Color3.fromRGB(153, 0, 0),
 		BorderColor3 = Color3.fromRGB(102, 0, 0),
 		Text = "",
 		Name = "Window",
