@@ -700,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+				BackgroundColor3 = Color3.fromRGB(152, 0, 0),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
@@ -761,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(60, 60, 60),
+					BackgroundColor3 = Color3.fromRGB(102, 0, 0),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
