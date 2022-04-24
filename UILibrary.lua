@@ -157,7 +157,7 @@ local library = {
     settings = {
         guiname = "DogSpy",
 		title = "GodFather [STATUS: UNDETECTED]",
-                logo = "rbxassetid://4643416534", -- "http://www.roblox.com/asset/?id=6597976562",
+                logo = "rbxassetid://4961838644", -- "http://www.roblox.com/asset/?id=4961838644"",
         footer = " Version 1.0 ",
         modal = true,
         font = Enum.Font.SourceSans,
